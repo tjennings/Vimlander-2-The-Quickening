@@ -93,3 +93,38 @@ let NERDTreeIgnore=['\.$', '\~$']
 
 " Make F2 open NERDTree
 nmap <F2> :NERDTreeToggle<CR>
+
+" Tyler's customizations
+"
+
+noremap <F3> :NERDTreeToggle<CR>
+noremap <C-d> :NERDTreeToggle<CR>
+noremap <C-o> :MRU<CR>
+noremap ? :nohlsearch<CR>
+"Close tabs with tc
+noremap tc :tabclose<CR>
+
+"Create new tab with Ctl+t
+noremap tt :tabnew<CR>
+noremap ts :ScreenSend<CR>
+
+noremap tn :tabnext<CR>
+set foldlevel=99999999
+
+noremap ts :ScreenSend<CR>
+
+noremap tn :tabnext<CR>
+
+let clj_highlight_builtins = 1
+let clj_highlight_contrib = 1
+let clj_paren_rainbow = 1
+
+let clj_want_gorilla = 1
+
+map <leader>e :e <C-R>=expand("%:h")<cr>/
+map <leader>q :q<cr>
+
+let g:AutoClosePairs = {'(': ')', '{': '}', '[': ']', '"': '"'} 
+
+
+let MRU_Max_Entries = 1000 

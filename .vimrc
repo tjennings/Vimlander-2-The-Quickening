@@ -20,7 +20,7 @@ autocmd FileType ruby runtime ruby_mappings.vim
 " don't make it look like there are line breaks where there are none
 set nowrap
 
-let mapleader = ","
+let mapleader = "\\"
 
 " * Window splits
 
@@ -49,7 +49,7 @@ let g:NeoComplCache_MinSyntaxLength = 3
 imap ii <Esc>
 
 " <leader>f to startup an ack search
-map <leader>f :Ack<Space>
+map <leader>f :LAck<Space>
 
 " Add RebuildTagsFile function/command
 function! s:RebuildTagsFile()
