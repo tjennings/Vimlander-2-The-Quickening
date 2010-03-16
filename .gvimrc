@@ -123,8 +123,14 @@ let clj_want_gorilla = 1
 
 map <leader>e :e <C-R>=expand("%:h")<cr>/
 map <leader>q :q<cr>
+map <leader>i :LGitGrep<space>
 
 let g:AutoClosePairs = {'(': ')', '{': '}', '[': ']', '"': '"'} 
 
 
 let MRU_Max_Entries = 1000 
+
+let g:rails_expensive = 0
+let g:rubycomplete_rails = 0
+
+map <leader>iw :execute 'LGitGrep ' . expand("<cword>")<CR>

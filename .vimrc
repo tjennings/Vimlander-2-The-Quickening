@@ -31,7 +31,7 @@ set splitbelow
 set splitright
 
 " Use neocomplcache. 
-let g:NeoComplCache_EnableAtStartup = 1 
+let g:NeoComplCache_EnableAtStartup = 0 
 
 " Use smartcase. 
 let g:NeoComplCache_SmartCase = 1 
