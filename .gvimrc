@@ -134,3 +134,4 @@ let g:rails_expensive = 0
 let g:rubycomplete_rails = 0
 
 map <leader>iw :execute 'LGitGrep ' . expand("<cword>")<CR>
+
