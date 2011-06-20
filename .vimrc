@@ -94,6 +94,6 @@ command! -nargs=1 Find :call Find("<args>")
 
 map <Leader>f :Fi 
 
-
+let g:syntastic_enable_signs=1
 
 
